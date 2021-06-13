@@ -66,7 +66,8 @@ async function main() {
                 const fileBuffer = fs.readFileSync(filename);
 
                 const body = {
-                    code: 0
+                    code: 0,
+                    uuid: msgDecoded.uuid
                 };
                 const bodyJSON = JSON.stringify(body);
                 const bodyBuffer = Buffer.from(bodyJSON);
