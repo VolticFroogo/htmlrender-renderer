@@ -41,7 +41,7 @@ function render(msg) {
 async function main() {
     browser = await puppeteer.launch({executablePath: 'google-chrome-stable'});
 
-    amqp.connect('amqp://host.docker.internal', (error, connection) => {
+    amqp.connect('amqp://rabbitmq', (error, connection) => {
         if (error) {
             throw error;
         }
