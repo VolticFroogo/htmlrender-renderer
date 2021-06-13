@@ -1,0 +1,25 @@
+{
+  "name": "htmlrender-renderer",
+  "version": "0.1.0",
+  "description": "The image rendering component of HTMLRender.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VolticFroogo/htmlrender-renderer.git"
+  },
+  "author": "Froogo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VolticFroogo/htmlrender-renderer/issues"
+  },
+  "homepage": "https://github.com/VolticFroogo/htmlrender-renderer#readme",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "puppeteer": "^10.0.0",
+    "tmp": "^0.2.1"
+  }
+}
